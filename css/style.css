@@ -26,6 +26,7 @@ h1{
 .prodotto{
     position: relative;
     display: inline-block;
+    padding: 5px;
 }
 .cuore{
     right: 0;
@@ -34,7 +35,7 @@ h1{
     height: 40px;
     background-color: white;
     top: 10px;
-    
+    z-index: 100;
 }
 .red{
     color: red;
@@ -45,21 +46,6 @@ img{
 .text{
     text-align: left;
 }
-/* .tag_red{
-    padding: 4px;
-    font-size: 1rem;
-    color: white;
-    
-    background-color: red;
-}
-.tag_green{
-    padding: 4px;
-    font-size: 1rem;
-    color: white;
-    position: relative;
-    
-    background-color: green;
-} */
 .tag1{
     position: absolute;
     bottom: 15%;
@@ -81,3 +67,42 @@ img{
     bottom: 15%;
     left: 15%;
 }
+.seconda_img1{
+    position: absolute;
+    visibility: hidden;
+    right: 2%;
+}
+.seconda_img2{
+    position: absolute;
+    visibility: hidden;
+    right: 2%;
+}
+.seconda_img3{
+    position: absolute;
+    visibility: hidden;
+    right: 2%;
+}
+.seconda_img4{
+    position: absolute;
+    visibility: hidden;
+    right: 2%;
+}
+.seconda_img5{
+    position: absolute;
+    visibility: hidden;
+    right: 2%;
+}
+.seconda_img6{
+    position: absolute;
+    visibility: hidden;
+    right: 2%;
+}
+.prodotto:hover .seconda_img1, 
+.prodotto:hover .seconda_img2,
+.prodotto:hover .seconda_img3,
+.prodotto:hover .seconda_img4,
+.prodotto:hover .seconda_img5,
+.prodotto:hover .seconda_img6{
+    visibility: visible;
+}
+
