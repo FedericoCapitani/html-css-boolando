@@ -45,3 +45,39 @@ img{
 .text{
     text-align: left;
 }
+/* .tag_red{
+    padding: 4px;
+    font-size: 1rem;
+    color: white;
+    
+    background-color: red;
+}
+.tag_green{
+    padding: 4px;
+    font-size: 1rem;
+    color: white;
+    position: relative;
+    
+    background-color: green;
+} */
+.tag1{
+    position: absolute;
+    bottom: 15%;
+}
+.text_red{
+    padding: 4px;
+    font-size: 1rem;
+    color: white;
+    background-color: red;
+}
+.text_green{
+    padding: 4px;
+    font-size: 1rem;
+    color: white;
+    background-color: green;
+}
+.tag2{
+    position: absolute;
+    bottom: 15%;
+    left: 15%;
+}
