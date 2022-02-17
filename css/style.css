@@ -7,4 +7,11 @@
 .site_header{
     color: yellowgreen;
     background-color: blue;
+    height: 400px;
+}
+h1{
+    position: relative;
+    top: 35%;
+    left: 25%;
+    font-size: 100px;
 }
