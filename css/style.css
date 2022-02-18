@@ -67,32 +67,9 @@ img{
     bottom: 15%;
     left: 15%;
 }
-.seconda_img1{
-    position: absolute;
-    visibility: hidden;
-    right: 2%;
-}
-.seconda_img2{
-    position: absolute;
-    visibility: hidden;
-    right: 2%;
-}
-.seconda_img3{
-    position: absolute;
-    visibility: hidden;
-    right: 2%;
-}
-.seconda_img4{
-    position: absolute;
-    visibility: hidden;
-    right: 2%;
-}
-.seconda_img5{
-    position: absolute;
-    visibility: hidden;
-    right: 2%;
-}
-.seconda_img6{
+.seconda_img1, .seconda_img2,
+.seconda_img3, .seconda_img4, 
+.seconda_img5, .seconda_img6{
     position: absolute;
     visibility: hidden;
     right: 2%;
